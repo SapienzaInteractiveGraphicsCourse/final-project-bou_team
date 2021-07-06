@@ -7,7 +7,7 @@ import { colors, bird_dimen, partId, dimen } from '../utils/const.js';
 const materialFace = new THREE.MeshLambertMaterial({ color: colors.black })
 const material = new THREE.MeshLambertMaterial({ color: colors.brown3 })
 
-const texture = new THREE.TextureLoader().load( "../src/assets/textures/bird_skin.jpg" );
+const texture = new THREE.TextureLoader().load( "../final-project-bou_team/src/assets/textures/bird_skin.jpg" );
 const materialBody = new THREE.MeshLambertMaterial( { map: texture } );
 
 const maxRunTheta = 20;
