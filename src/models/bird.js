@@ -1,4 +1,5 @@
-import * as THREE from '../../node_modules/three/src/Three.js';
+//import * as THREE from '../../node_modules/three/src/Three.js';
+import * as THREE from 'https://cdn.skypack.dev/three@0.129.0';
 import { degreesToRadians } from '../utils/utilities.js';
 import { colors, bird_dimen, partId, dimen } from '../utils/const.js';
 
