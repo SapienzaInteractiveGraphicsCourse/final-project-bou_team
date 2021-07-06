@@ -144,7 +144,7 @@ function init() {
     // Init floor and scene
 
 
-    var floorTexture = new THREE.TextureLoader().load("./final-project-bou_team/src/assets/textures/street.png");
+    var floorTexture = new THREE.TextureLoader().load("./src/assets/textures/street.png");
     floorTexture.wrapS = THREE.RepeatWrapping;
     floorTexture.wrapT = THREE.RepeatWrapping;
     floorTexture.repeat.set(10, 10);
