@@ -3,7 +3,7 @@ import * as THREE from 'https://cdn.skypack.dev/three@0.129.0';
 import { degreesToRadians } from '../utils/utilities.js'
 import { colors, boar_dimen, partId, dimen } from '../utils/const.js';
 
-const bmap = new THREE.TextureLoader().load("../../assets/textures/boar_skin2.jpg");
+const bmap = new THREE.TextureLoader().load("../assets/textures/boar_skin2.jpg");
 const materialBody = new THREE.MeshPhongMaterial({
     color: colors.brown3,
     emissive   :  new THREE.Color("rgb(7,3,5)"),
