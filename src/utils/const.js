@@ -330,15 +330,15 @@ const treePositions = [
 const losePage = '<div id="lose"><div class="row d-flex justify-content-center"><h1 class="display-4"><i class="fas fa-star fa-1x text-info"></i> Score: <a id="score"></a></h1>      </div><div class="row d-flex justify-content-center"><h1 class="display-4"><i class="fas fa-meteor fa-1x text-danger"></i> Best score: <a id="best_score"></a></h1></div><div class="row"><div class="col d-flex justify-content-center">   <button id="retryButton" role="button" class="btn btn-warning btn-lg" style="width: 14rem; height: 6rem;"><i class="fas fa-redo-alt fa-3x"></i><c style="font-size: 3rem;"> Retry</c></button></div></div><br><br></div>';
 const retryProgress = '<div id="progress"><br><br><br><div class="row"><div class="col-12 d-flex justify-content-center"><div class="spinner-border text-info" style="width: 4rem; height: 4rem;" role="status"><span class="sr-only">Loading...</span></div></div></div></div>';
 
-const car_sound = '<audio id="audio1" autoplay><source src="/src/assets/sound/car.mp3"></audio>';
-const truck_sound = '<audio id="audio2" autoplay><source src="/src/assets/sound/truck.mp3"></audio>';
-const boar_sound = '<audio id="audio3" autoplay><source src="/src/assets/sound/boar.mp3"></audio>';
-const bird_sound = '<audio id="audio4" autoplay><source src="/src/assets/sound/bird.mp3"></audio>';
-const kill_sound = '<audio id="audio5" autoplay><source src="/src/assets/sound/kill.mp3"></audio>';
-const coin_sound = '<audio id="audio6" autoplay><source src="/src/assets/sound/coin.mp3"></audio>';
-const yeah_sound = '<audio id="audio7" autoplay><source src="/src/assets/sound/yeah.mp3"></audio>';
-const gasp_sound = '<audio id="audio8" autoplay><source src="/src/assets/sound/gasp.mp3"></audio>';
-const bell_sound = '<audio id="audio8" autoplay><source src="/src/assets/sound/bell.mp3"></audio>';
+const car_sound = '<audio id="audio1" autoplay><source src="/final-project-bou_team/src/assets/sound/car.mp3"></audio>';
+const truck_sound = '<audio id="audio2" autoplay><source src="/final-project-bou_team/src/assets/sound/truck.mp3"></audio>';
+const boar_sound = '<audio id="audio3" autoplay><source src="/final-project-bou_team/src/assets/sound/boar.mp3"></audio>';
+const bird_sound = '<audio id="audio4" autoplay><source src="/final-project-bou_team/src/assets/sound/bird.mp3"></audio>';
+const kill_sound = '<audio id="audio5" autoplay><source src="/final-project-bou_team/src/assets/sound/kill.mp3"></audio>';
+const coin_sound = '<audio id="audio6" autoplay><source src="/final-project-bou_team/src/assets/sound/coin.mp3"></audio>';
+const yeah_sound = '<audio id="audio7" autoplay><source src="/final-project-bou_team/src/assets/sound/yeah.mp3"></audio>';
+const gasp_sound = '<audio id="audio8" autoplay><source src="/final-project-bou_team/src/assets/sound/gasp.mp3"></audio>';
+const bell_sound = '<audio id="audio8" autoplay><source src="/final-project-bou_team/src/assets/sound/bell.mp3"></audio>';
 
 
 export {
@@ -360,5 +360,4 @@ export {
     gasp_sound,
     bell_sound,
     treePositions
-
 };

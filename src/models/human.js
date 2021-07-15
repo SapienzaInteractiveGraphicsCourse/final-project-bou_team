@@ -4,11 +4,11 @@ import { degreesToRadians } from '../utils/utilities.js'
 import { colors, dimen, partId } from '../utils/const.js';
 import { tweenJumpHelper, tweenRotationHelper } from '../animations/moveHelper.js';
 
-const normal = new THREE.TextureLoader().load('/src/assets/textures/NormalMapTshirt.png');
-const createtexture = new THREE.TextureLoader().load('/src/assets/textures/DiffuseTshirt.png');
-const bump = new THREE.TextureLoader().load('/src/assets/textures/NormalMapTshirt.png');
-const Hatpirate = new THREE.TextureLoader().load('/src/assets/textures/pirate.png');
-const face = new THREE.TextureLoader().load('/src/assets/textures/face.png');
+const normal = new THREE.TextureLoader().load('/final-project-bou_team/src/assets/textures/NormalMapTshirt.png');
+const createtexture = new THREE.TextureLoader().load('/final-project-bou_team/src/assets/textures/DiffuseTshirt.png');
+const bump = new THREE.TextureLoader().load('/final-project-bou_team/src/assets/textures/NormalMapTshirt.png');
+const Hatpirate = new THREE.TextureLoader().load('/final-project-bou_team/src/assets/textures/pirate.png');
+const face = new THREE.TextureLoader().load('/final-project-bou_team/src/assets/textures/face.png');
 
 const materialBody = new THREE.MeshStandardMaterial({ color: colors.pink })
 const materialWand = new THREE.MeshStandardMaterial({ color: colors.brown })
